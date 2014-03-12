@@ -1,0 +1,14 @@
+{
+  "name": "kitsi-stat",
+  "version": "0.2.1",
+  "description": "Statistics from app.",
+  "author": {
+    "name": "steenk"
+  },
+  "dependencies": {
+  },
+  "main": "./stat.js",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
