@@ -3,9 +3,12 @@ module.exports = function (dir) {
 	var fs = require('fs');
 	fs.writeFile(dir + '/.pid', process.pid);
 	fs.writeFile(dir + '/.stat', '');
+	var pack = JSON.parse(fs.readFileSync(dir + '/package.json')); 
+	
 	process.on('SIGUSR2', function () {
 		    var stat = {
-				title: process.title,
+				title: pack.name,
+				version: pack.version,
 				timestamp: new Date(),
 		        args: process.argv,
 		        uid: process.getuid(),
