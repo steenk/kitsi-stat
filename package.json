@@ -5,7 +5,10 @@
   "author": {
     "name": "steenk"
   },
-  "dependencies": {
+   "repository": {
+      "type": "git",
+      "url": "git@kitsione.kitsi.biz:kitsi-stat.git"
+   },  "dependencies": {
   },
   "main": "./stat.js",
   "engines": {
