@@ -22,7 +22,8 @@ stop() {
 
 status() {
 	if [ -f $DIR/.pid ]; then
-		kill -USR2 $(cat $DIR/.pid) && json -f $DIR/.stat
+		PID=$(cat $DIR/.pid)
+		kill -USR2 $PID && cat "$DIR/.stat" | json
 	else
 		echo Application is not running
 	fi

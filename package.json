@@ -1,6 +1,6 @@
 {
   "name": "kitsi-stat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Control of app via signal SIGUSR2.",
   "author": {
     "name": "steenk"
