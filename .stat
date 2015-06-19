@@ -1,1 +1,1 @@
-{"title":"kitsi-stat","version":"0.2.2","timestamp":"2014-07-13T07:28:25.476Z","args":["node","/Users/steen/kitsi-stat/app"],"uid":501,"cwd":"/Users/steen/kitsi-stat","memory":{"rss":15437824,"heapTotal":7195904,"heapUsed":2889216},"pid":66487,"uptime":3}
+{"title":"kitsi-stat","version":"1.0.0","timestamp":"2015-06-19T09:04:45.490Z","args":["/usr/local/bin/node","/Users/steen/kitsi-stat/app.js"],"uid":501,"cwd":"/Users/steen/kitsi-stat","memory":{"rss":20946944,"heapTotal":10783744,"heapUsed":4679296},"pid":52777,"uptime":4.013}
